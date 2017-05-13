@@ -6,6 +6,7 @@ from homely.files import symlink
 mkdir('~/.kwm')
 
 symlink('Kwm/kwmrc', '~/.kwm/kwmrc')
+symlink('Khd/khdrc', '~/.khdrc')
 symlink('Zsh/zshrc', '~/.zshrc')
 symlink('Git/gitconfig', '~/.gitconfig')
 symlink('Git/global_gitignore', '~/.global_gitignore')
