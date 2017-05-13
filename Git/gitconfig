@@ -4,7 +4,7 @@
 [core]
 	editor = emacs
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.global_gitignore
 [sendemail]
 	smtpencryption = tls
 	smtpserver = smtp.gmail.com
