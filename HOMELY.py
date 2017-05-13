@@ -20,5 +20,5 @@ symlink('Git/global_gitignore', '~/.global_gitignore')
 # Sublime Text
 symlink('/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
 	'/usr/local/bin/subl')
-symlink('Sublime/Packages/User/Preferences.sublime-settings',
-	'~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings')
+symlink('Sublime/Packages,
+	'~/Library/Application Support/Sublime Text 3/Packages)
