@@ -10,4 +10,4 @@ symlink('Zsh/zshrc', '~/.zshrc')
 symlink('Git/gitconfig', '~/.gitconfig')
 symlink('Git/global_gitignore', '~/.global_gitignore')
 symlink('/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
-	'/usr/local/bin/sublime')
+	'/usr/local/bin/subl')
