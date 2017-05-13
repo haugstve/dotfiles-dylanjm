@@ -20,4 +20,4 @@ beautifulsoup4
 homely
 tabulate
 quandl
-pathlib
+pathlib2
