@@ -16,7 +16,7 @@ symlink('Zsh/zshrc', '~/.zshrc')
 
 # Git
 gfile = Path('~/.gitconfig')
-if gfile.isfile():
+if gfile.is_file():
 	os.remove(gfile)
 symlink('Git/gitconfig', '~/.gitconfig')
 symlink('Git/global_gitignore', '~/.global_gitignore')
