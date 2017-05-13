@@ -1,6 +1,6 @@
 # ~/dotfiles/HOMELY.py
 # NOTE that we use homely's mkdir() not os.mkdir()
-import os.path
+from pathlib import Path
 from homely.files import mkdir
 from homely.files import symlink
 
