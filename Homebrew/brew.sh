@@ -56,6 +56,7 @@ CASKS=(
     iterm2
     slack
     spotify
+    spotify-notifications
     virtualbox
     xquartz
     sublime-text
