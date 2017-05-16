@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"GitGutter",
+		"Jedi - Python autocompletion",
+		"LaTeXTools",
+		"Origami",
+		"Package Control",
+		"R-Box",
+		"R-snippets",
+		"SendCode",
+		"SublimeLinter",
+		"SublimeREPL",
+		"Sublimerge Pro"
+	]
+}

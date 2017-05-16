@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -13,24 +13,17 @@
 		"env",
 		"env3"
 	],
-	"font_face": "Menlo",
+	"font_face": "Source Code Pro",
 	"font_options":
 	[
 		"subpixel_antialias",
 		"no_bold"
 	],
-	"font_size": 13.0,
+	"font_size": 9.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Vintage"
 	],
-	"line_padding_bottom": 0,
-	"line_padding_top": 0,
-	"rulers":
-	[
-		80
-	],
-	"save_on_focus_lost": true,
-	"word_wrap": true,
-	"wrap_width": 80
+	"save_on_focus_lost": true
 }
