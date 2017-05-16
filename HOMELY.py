@@ -22,7 +22,7 @@ symlink('Git/global_gitignore', '~/.global_gitignore')
 symlink('/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
 	'/usr/local/bin/subl')
 # Sublime Preferences link
-symlink('Sublime/Packages/User/Preferences.sublime-settings',
+symlink('Sublime/Packages/User/master-pref.sublime-settings',
         '~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings')
 # Spacegrey Theme link
 symlink('Sublime/Packages/Theme - Spacegrey',
