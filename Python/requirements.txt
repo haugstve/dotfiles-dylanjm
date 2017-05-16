@@ -21,3 +21,4 @@ homely
 tabulate
 quandl
 pathlib2
+pylint

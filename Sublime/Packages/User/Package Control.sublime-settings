@@ -15,6 +15,7 @@
 		"R-snippets",
 		"SendCode",
 		"SublimeLinter",
+		"SublimeLinter-pylint",
 		"SublimeREPL",
 		"Sublimerge Pro"
 	]
