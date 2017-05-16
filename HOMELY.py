@@ -25,5 +25,5 @@ symlink('/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
 symlink('Sublime/Packages/User/master-pref.sublime-settings',
         '~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings')
 # Spacegrey Theme link
-symlink('Sublime/Packages/Theme - Spacegrey',
-        '~/Library/Application Support/Sublime Text 3/Packages/Theme - Spacegrey')
+symlink('Sublime/Packages/Theme\ -\ Spacegray',
+        '~/Library/Application Support/Sublime Text 3/Packages/Theme\ -\ Spacegray')
