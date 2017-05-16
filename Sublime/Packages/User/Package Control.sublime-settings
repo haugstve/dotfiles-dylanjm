@@ -2,9 +2,12 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"SublimeREPL"
 	],
 	"installed_packages":
 	[
+		"Anaconda",
+		"LaTeXTools",
 		"Package Control",
 		"R-Box",
 		"R-snippets",

@@ -4,7 +4,7 @@ alias oo='open .'
 alias kwmon='brew services start kwm'
 alias kwmoff='brew services stop kwm'
 alias hist='history | grep'
-alias emacs="/usr/local/Cellar/emacs/24.x/Emacs.app/Contents/MacOS/Emacs"
+alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install -g npm@latest; npm update -g; sudo gem update'
