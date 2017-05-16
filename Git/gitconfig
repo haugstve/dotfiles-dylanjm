@@ -50,4 +50,6 @@
 	 support = support-
 	 versiontag = v
 [alias]
+	cm = commit -m
+	p = push
 	
