@@ -27,6 +27,3 @@ symlink('Sublime/Packages/User/Preferences.sublime-settings',
 # Spacegrey Theme link
 symlink('Sublime/Packages/Theme - Spacegrey',
         '~/Library/Application Support/Sublime Text 3/Packages/Theme - Spacegrey')
-# Package Control link
-symlink('Sublime/Packages/User/Package Control.sublime-settings',
-	'~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings')
