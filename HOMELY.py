@@ -1,5 +1,6 @@
 # ~/dotfiles/HOMELY.py
 # NOTE that we use homely's mkdir() not os.mkdir()
+from pathlib import Path
 from homely.files import mkdir
 from homely.files import symlink
 
@@ -25,5 +26,6 @@ symlink('/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
 symlink('Sublime/Packages/User/master-pref.sublime-settings',
         '~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings')
 # Spacegrey Theme link
-symlink('Sublime/Packages/Theme\ -\ Spacegray',
-        '~/Library/Application Support/Sublime Text 3/Packages/Theme\ -\ Spacegray')
+theme = Path("Sublime/Packages/Theme\ -\ Spacegray")
+themeLINK = Path("~/Library/Application Support/Sublime Text 3/Packages/Theme\ -\ Spacegray")
+symlink(theme,themeLINK)
