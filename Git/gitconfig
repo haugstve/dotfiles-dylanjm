@@ -5,21 +5,6 @@
 	editor = emacs
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	excludesfile = ~/.global_gitignore
-[sendemail]
-	smtpencryption = 
-	smtpserver = 
-	smtpuser = 
-	smtppass =
-	smtpserverport =
-[web]
-	browser = google-chrome
-[instaweb]
-	httpd = apache2 -f
-[rerere]
-	enabled = 1
-	autoupdate = 1
-[push]
-	default = matching
 [color]
 	ui = auto
 [color "branch"]
@@ -36,19 +21,6 @@
        added = green bold
        changed = yellow bold
        untracked = red bold
-[diff]
-	tool = vimdiff
-[difftool]
-	prompt = false
-[github]
-	user = pkumar
-	token = token
-[gitflow "prefix"]
-	 feature = feature-
-	 release = release-
-	 hotfix = hotfix-
-	 support = support-
-	 versiontag = v
 [alias]
 	cm = commit -m
 	p = push

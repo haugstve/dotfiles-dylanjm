@@ -32,7 +32,7 @@ symlink('~/dotfiles/Sublime/Packages/User/Package Control.sublime-settings',
 		'~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings')
 # Python Specific link
 symlink('~/dotfiles/Sublime/Packages/User/Python.sublime-settings',
-		'~/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings')
+        '~/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings')
 # R-Box link
 symlink('~/dotfiles/Sublime/Packages/User/R-Box.sublime-settings',
 		'~/Library/Application Support/Sublime Text 3/Packages/User/R-Box.sublime-settings')
@@ -41,6 +41,4 @@ symlink('~/dotfiles/Sublime/Packages/User/SendCode.sublime-settings',
 		'~/Library/Application Support/Sublime Text 3/Packages/User/SendCode.sublime-settings')
 # LaTeXTools link
 symlink('~/dotfiles/Sublime/Packages/User/LaTeXTools.sublime-settings',
-		'~/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings')
-
-
+		'~/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings')t

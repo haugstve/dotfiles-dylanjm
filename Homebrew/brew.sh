@@ -21,7 +21,6 @@ cd "$(dirname "$0")"
 TAPS=(
     homebrew/science
     caskroom/fonts
-    staticfloat/julia
 )
 
 FORMULAS=(
@@ -29,14 +28,18 @@ FORMULAS=(
     moreutils
     findutils
     wget
+    curl
     the_silver_searcher
     git
     zsh
     zsh-completions
     r --with-x11
+    python
     python3
     koekeishiya/formulae/kwm
     koekeishiya/formulae/kwm
+    tree
+    itsycal
 )
 
 FONTS=(
@@ -51,18 +54,22 @@ CASKS=(
     google-drive
     google-photos-backup
 
-    colorpicker-hex
+    # Work Apps
     cyberduck
     iterm2
-    slack
-    spotify
     virtualbox
+    
+    # Development
+    java
     xquartz
     sublime-text
     emacs
     rstudio
-    java
     weka
+
+    # Daily
+    slack
+    spotify
     mactex
 )
 
@@ -77,7 +84,7 @@ brew cask install ${CASKS[@]}
 
 brew cask install ${FONTS[@]}
 
-#R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
+R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
 
 brew cleanup
 

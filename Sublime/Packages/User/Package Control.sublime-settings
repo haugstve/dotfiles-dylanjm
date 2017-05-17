@@ -5,18 +5,16 @@
 	],
 	"installed_packages":
 	[
+		"Anaconda",
 		"BracketHighlighter",
+		"Emmet",
 		"GitGutter",
-		"Jedi - Python autocompletion",
 		"LaTeXTools",
 		"Origami",
 		"Package Control",
 		"R-Box",
 		"R-snippets",
 		"SendCode",
-		"SublimeLinter",
-		"SublimeLinter-pylint",
-		"SublimeREPL",
-		"Sublimerge Pro"
+		"SublimeREPL"
 	]
 }
