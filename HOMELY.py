@@ -3,6 +3,7 @@
 import os
 from homely.files import mkdir
 from homely.files import symlink
+from os.path import expanduser
 
 # KWM Windows Manager
 mkdir('~/.kwm')
@@ -14,9 +15,11 @@ symlink('Khd/khdrc', '~/.khdrc')
 # ZSH
 symlink('Zsh/zshrc', '~/.zshrc')
 
+home = expanduser("~")
+
 # Git
-if os.path.exists('$HOME/.gitconfig'):
-    os.remove('$HOME/.gitconfig')
+if os.path.exists(home+'/.gitconfig'):
+    os.remove(home+'/.gitconfig')
 symlink('Git/gitconfig', '~/.gitconfig')
 symlink('Git/global_gitignore', '~/.global_gitignore')
 
