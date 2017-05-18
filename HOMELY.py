@@ -1,5 +1,6 @@
 # ~/dotfiles/HOMELY.py
 # NOTE that we use homely's mkdir() not os.mkdir()
+from pathlib import Path
 from homely.files import mkdir
 from homely.files import symlink
 
@@ -14,6 +15,8 @@ symlink('Khd/khdrc', '~/.khdrc')
 symlink('Zsh/zshrc', '~/.zshrc')
 
 # Git
+if Path('~/.gitconfig').is_file():
+    os.remove('~/.gitconfig')
 symlink('Git/gitconfig', '~/.gitconfig')
 symlink('Git/global_gitignore', '~/.global_gitignore')
 
