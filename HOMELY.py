@@ -51,3 +51,10 @@ symlink('~/dotfiles/Sublime/Packages/User/SendCode.sublime-settings',
 # LaTeXTools link
 symlink('~/dotfiles/Sublime/Packages/User/LaTeXTools.sublime-settings',
 		'~/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings')
+
+# iTerm2 Symlink
+if os.path.exists(home+'/Library/Preferences/com.googlecode.iterm2.plist'):
+    os.remove(home+'/Library/Preferences/com.googlecode.iterm2.plist')
+symlink('iTerm2/com.googlecode.iterm2.plist',
+    '~/Library/Preferences/com.googlecode.iterm2.plist')
+
