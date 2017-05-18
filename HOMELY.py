@@ -15,8 +15,8 @@ symlink('Khd/khdrc', '~/.khdrc')
 symlink('Zsh/zshrc', '~/.zshrc')
 
 # Git
-if Path('~/.gitconfig').is_file():
-    os.remove('~/.gitconfig')
+if Path('$HOME/.gitconfig').is_file():
+    os.remove('$HOME/.gitconfig')
 symlink('Git/gitconfig', '~/.gitconfig')
 symlink('Git/global_gitignore', '~/.global_gitignore')
 
