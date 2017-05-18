@@ -41,4 +41,4 @@ symlink('~/dotfiles/Sublime/Packages/User/SendCode.sublime-settings',
 		'~/Library/Application Support/Sublime Text 3/Packages/User/SendCode.sublime-settings')
 # LaTeXTools link
 symlink('~/dotfiles/Sublime/Packages/User/LaTeXTools.sublime-settings',
-		'~/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings')t
+		'~/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings')
