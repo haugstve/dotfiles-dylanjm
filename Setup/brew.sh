@@ -31,15 +31,12 @@ FORMULAS=(
     curl
     the_silver_searcher
     git
-    zsh
-    zsh-completions
-    r --with-x11
+    r
     python
     python3
     koekeishiya/formulae/kwm
     koekeishiya/formulae/kwm
     tree
-    itsycal
 )
 
 FONTS=(
