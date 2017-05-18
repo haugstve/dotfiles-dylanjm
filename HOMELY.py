@@ -24,6 +24,9 @@ symlink('Git/gitconfig', '~/.gitconfig')
 symlink('Git/global_gitignore', '~/.global_gitignore')
 
 # Sublime Text
+mkdir('~/Library/Application Support/Sublime Text 3/Packages')
+mkdir('~/Library/Application Support/Sublime Text 3/Packages/User')
+
 # subl CLI link
 symlink('/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
         '/usr/local/bin/subl')
