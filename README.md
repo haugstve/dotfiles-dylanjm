@@ -68,3 +68,5 @@ Now time to get the text editors up and running. I primarily use sublime text th
     - mactex
 
 These are just my base level apps that I'll typically need everytime I start fresh. This list changes pretty regularly, so feel free to add and take from it what you want. 
+
+_**More info about configuring python and R can be found in the respecitve folder README.md**_
