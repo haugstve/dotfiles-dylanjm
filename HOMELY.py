@@ -52,8 +52,8 @@ symlink('~/dotfiles/Sublime/Packages/User/SendCode.sublime-settings',
 symlink('~/dotfiles/Sublime/Packages/User/LaTeXTools.sublime-settings',
 		'~/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings')
 # Markdown link
-symlink('~/dotfiles/Sublime/Packages/User/MarkdownPreview.sublime-settings',
-        '~/Library/Application Support/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings')
+symlink('~/dotfiles/Sublime/Packages/User/Default (OSX).sublime-keymap',
+        '~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap')
 
 
 # iTerm2 Symlink
