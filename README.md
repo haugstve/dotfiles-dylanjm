@@ -42,10 +42,29 @@ The first stage is downloading and preparing the shell. This is the first thing 
     - sed, etc..
 * [KWM](https://github.com/koekeishiya/kwm)
 * [KHD](https://github.com/koekeishiya/kwm)
-* Neovim
-* Sublime-Text 3
-* Emacs
+* [Neovim](https://neovim.io)
+* [Sublime-Text 3](https://www.sublimetext.com)
+* [Emacs](https://www.gnu.org/software/emacs/)
 
-Now time to get the text editors up and running. I primarily use sublime text these days but I have to my emacs and everyonce in a while I'll bust out vim to stay sharp. 
+Now time to get the text editors up and running. I primarily use sublime text these days but I have to my emacs and every once in a while I'll bust out vim to stay sharp. 
 
+## Stage 3 - GUI Apps
+**Features**:
 
+* **Google Ecosystem**
+    - google-chrome
+    - google-drive
+    - google-photos-backup
+* **Work Apps**
+    - cyberduck
+    - iterm2
+    - virtualbox
+* **Development**
+    - weka
+* **Daily**
+    - slack
+    - spotify
+    - itsycal
+    - mactex
+
+These are just my base level apps that I'll typically need everytime I start fresh. This list changes pretty regularly, so feel free to add and take from it what you want. 
