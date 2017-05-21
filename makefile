@@ -20,7 +20,7 @@ rconfig:
 
 macos:
 	@echo 'Initializing macOS Settings (REBOOT REQUIRED)' ||:
-	@source Osx/macos.sh
+	@source Osx/macos.sh ||:
 
 clean:
 	@echo 'Cleaning Up Repo...' ||:
