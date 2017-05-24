@@ -36,7 +36,7 @@ fi
 if ! grep -Fxq "/usr/local/bin/zsh" /etc/shells
 then
     echo "Adding /usr/local/bin/zsh to /etc/shells file"
-    echo '/usr/local/bin/zsh' | tee -a /etc/shells
+    echo '/usr/local/bin/zsh' | sudo tee -a /etc/shells
 
     chsh -s /usr/local/bin/zsh
 fi
