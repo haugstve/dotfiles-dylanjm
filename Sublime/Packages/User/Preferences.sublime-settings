@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/All Hallow's Eve.tmTheme",
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -23,6 +23,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Theme - Spacegray",
 		"Vintage"
 	],
 	"save_on_focus_lost": true,
