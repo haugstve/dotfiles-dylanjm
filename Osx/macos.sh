@@ -23,7 +23,7 @@ osascript -e 'tell application "System Events" to tell appearance preferences to
 defaults write NSGlobalDomain _HIHideMenuBar -bool true
 
 # Set highlight color to green
-defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
+#defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
 # Increase window resize speed for Cocoa applications
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001

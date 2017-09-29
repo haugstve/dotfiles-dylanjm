@@ -71,3 +71,4 @@ export LANG=en_US.UTF-8
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 [ -r "$HOME/dotfiles/Zsh/aliases.zsh" ] && source "$HOME/dotfiles/Zsh/aliases.zsh"
+export R_LIBS_USER=/Users/DJM/Library/R/3.x/library

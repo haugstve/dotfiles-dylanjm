@@ -9,3 +9,11 @@ alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
 # (useful when executing time-consuming commands)
 alias badge="tput bel"
 
+brewPkg() {
+  pkg=$1
+  shift
+  (
+    brew install ${pkg} $*  2>&1 |
+        tee $HOME/Library/Logs/Homebrew/$USER/${pkg}-$(date +"%F_%H%M").txt
+  )
+}
