@@ -5,7 +5,7 @@ Hello, this is my dotfile repository. I have created this so that I can easily r
 
 These dotfiles are not crossplatform compatiable and should only work on macOS systems. **You should never blindly download and install random scripts to your computer** Albiet, you can trust me (can you really?) but before installing check through the scripts and make sure you know what they are doing. Several scripts require you to run **sudo**. There are three stages to installing these dotfiles. This allows you to _crank up the volume_ to your liking so to speak. 
 
-![Picture of Setup](https://imgur.com/a/ZppvG)
+![Picture of Setup](https://imgur.com/ili08aF)
 
 ## Installation
 
