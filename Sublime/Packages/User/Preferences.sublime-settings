@@ -1,4 +1,15 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python - string - comment - constant.numeric"
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex"
+		}
+	],
 	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"file_exclude_patterns":
 	[
@@ -19,7 +30,7 @@
 		"subpixel_antialias",
 		"no_bold"
 	],
-	"font_size": 14.0,
+	"font_size": 11.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -32,5 +43,5 @@
 	"spacegray_tabs_auto_width": true,
 	"spacegray_tabs_font_small": true,
 	"spacegray_tabs_normal": true,
-	"theme": "Spacegray.sublime-theme"
+	"theme": "Spacegray Oceanic.sublime-theme"
 }
