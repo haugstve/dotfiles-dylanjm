@@ -1,4 +1,15 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python - string - comment - constant.numeric"
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex"
+		}
+	],
 	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"file_exclude_patterns":
 	[
@@ -23,6 +34,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"save_on_focus_lost": true,
