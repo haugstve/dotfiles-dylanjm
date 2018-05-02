@@ -70,5 +70,11 @@ export LANG=en_US.UTF-8
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# reticulate Python
+export RETICULATE_PYTHON="/usr/local/bin/python3"
+
+# personal access token for OSF
+export OSF_PAT="yfZNXxGYTYV6UhvqmAeyQFhhAEKK0cocIwRStW2lGBXMTeTvDGtdQfcg1Mpx4hNqiNm8Hm"
+
 [ -r "$HOME/dotfiles/Zsh/aliases.zsh" ] && source "$HOME/dotfiles/Zsh/aliases.zsh"
 export R_LIBS_USER=/Users/DJM/Library/R/3.x/library
